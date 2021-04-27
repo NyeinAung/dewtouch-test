@@ -56,10 +56,6 @@
 					14 => total
 					*/
 
-					// $this->data['Member']['type']=$objWorksheet->getCellByColumnAndRow(4, $row)->getValue();
-					// $this->data['Member']['no']=$objWorksheet->getCellByColumnAndRow(3, $row)->getValue();
-					// $this->data['Member']['name']=$objWorksheet->getCellByColumnAndRow(2, $row)->getValue();
-					// $this->data['Member']['company']=$objWorksheet->getCellByColumnAndRow(5, $row)->getValue();
 					$member_no = explode(" ", $objWorksheet->getCellByColumnAndRow(3, $row)->getValue());
 					$memberdata['Member'] = array(
 						'type' => $member_no[0],
