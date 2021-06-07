@@ -58,3 +58,1409 @@ Request URL: /img/LOGOSITE
 Stack Trace:
 #0 /Users/minghui/Documents/Project/trial/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2021-04-24 14:58:44 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#8 [internal function]: OrderReportController->Question()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-04-24 14:58:47 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#8 [internal function]: OrderReportController->Question()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-04-24 14:58:48 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#8 [internal function]: OrderReportController->Question()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-04-24 14:58:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] No such file or directory',
+  'enabled' => true,
+)
+Request URL: /dewtouch-interview/OrderReport
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3617): ConnectionManager::getDataSource('default')
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1155): Model->setDataSource('default')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(9): Model->find('all', Array)
+#8 [internal function]: OrderReportController->index()
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#12 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2021-04-24 15:09:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /dewtouch-interview/OrderReport
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/Database/Mysql.php(224): DboSource->_execute('SHOW TABLES FRO...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1161): Mysql->listSources()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(9): Model->find('all', Array)
+#7 [internal function]: OrderReportController->index()
+#8 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-04-24 15:09:19 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/Database/Mysql.php(224): DboSource->_execute('SHOW TABLES FRO...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1161): Mysql->listSources()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#7 [internal function]: OrderReportController->Question()
+#8 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-04-24 15:09:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/Database/Mysql.php(224): DboSource->_execute('SHOW TABLES FRO...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1161): Mysql->listSources()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#7 [internal function]: OrderReportController->Question()
+#8 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-04-24 15:09:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/DboSource.php(460): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Datasource/Database/Mysql.php(224): DboSource->_execute('SHOW TABLES FRO...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(1161): Mysql->listSources()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3644): Model->setSource('orders')
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(3022): Model->getDataSource()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Model/Model.php(2994): Model->_readDataSource('all', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/OrderReportController.php(48): Model->find('all', Array)
+#7 [internal function]: OrderReportController->Question()
+#8 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(OrderReportController), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(OrderReportController), Object(CakeRequest))
+#11 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2021-04-24 17:10:11 Error: Fatal Error (1): Call to undefined function dd() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/View/OrderReport/question.ctp, line 248]
+2021-04-24 17:10:11 Error: [FatalErrorException] Call to undefined function dd()
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 248)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 248, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 248, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-24 19:00:14 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 108472308 bytes) in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php, line 964]
+2021-04-24 19:00:14 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 108472308 bytes)
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/Applications/X...', 964)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/Applications/X...', 964, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/Applications/X...', 964, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-24 19:02:45 Error: Fatal Error (1): Allowed memory size of 134217728 bytes exhausted (tried to allocate 59097088 bytes) in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/View/Layouts/ajax.ctp, line 20]
+2021-04-24 19:02:45 Error: [FatalErrorException] Allowed memory size of 134217728 bytes exhausted (tried to allocate 59097088 bytes)
+Request URL: /dewtouch-interview/OrderReport/question
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Allowed memory ...', '/Applications/X...', 20)
+#1 [internal function]: ErrorHandler::handleError(1, 'Allowed memory ...', '/Applications/X...', 20, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Allowed memory ...', '/Applications/X...', 20, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:23:33 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 45]
+2021-04-25 09:23:33 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 45, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 45, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:30:35 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 47]
+2021-04-25 09:30:35 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 47, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 47, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:31:03 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 48]
+2021-04-25 09:31:03 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:33:14 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 48]
+2021-04-25 09:33:14 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:33:18 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 48]
+2021-04-25 09:33:18 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 48, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:40:44 Error: Fatal Error (1): Call to undefined function dd() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 25]
+2021-04-25 09:40:44 Error: [FatalErrorException] Call to undefined function dd()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 25)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 25, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 25, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:40:56 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 54]
+2021-04-25 09:40:56 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 54, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 54, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:42:34 Error: Fatal Error (1): Call to undefined method FileUploadController::create() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 54]
+2021-04-25 09:42:34 Error: [FatalErrorException] Call to undefined method FileUploadController::create()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 54)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 54, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 54, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:42:55 Error: Fatal Error (1): Call to undefined method FileUploadController::validates() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 61]
+2021-04-25 09:42:55 Error: [FatalErrorException] Call to undefined method FileUploadController::validates()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 61)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 61, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 61, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 09:43:33 Error: Fatal Error (1): Call to undefined method FileUploadController::save() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/FileUploadController.php, line 63]
+2021-04-25 09:43:33 Error: [FatalErrorException] Call to undefined method FileUploadController::save()
+Request URL: /dewtouch-interview/FileUpload
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 63)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 63, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 63, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-25 15:48:17 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:48:29 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:49:25 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:49:59 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:50:29 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:50:51 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:50:52 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:50:54 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:50:57 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:51:02 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:51:11 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:51:41 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:18 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:19 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:19 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:21 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:23 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 15:54:26 Error: [MissingActionException] Action FormatController::flower.jpg() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'flower.jpg',
+)
+Request URL: /dewtouch-interview/Format/flower.jpg
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 16:04:15 Error: [MissingActionException] Action FormatController::files() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'files',
+)
+Request URL: /dewtouch-interview/Format/files/screenshot/screenshot1.png
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 16:05:50 Error: [MissingActionException] Action FormatController::myreference.html() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'myreference.html',
+)
+Request URL: /dewtouch-interview/Format/myreference.html
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 18:54:58 Error: [MissingActionException] Action FormatController::Format() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'Format',
+)
+Request URL: /dewtouch-interview/format/Format/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 18:55:14 Error: [MissingActionException] Action FormatController::q1_answer() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'q1_answer',
+)
+Request URL: /dewtouch-interview/format/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-25 18:57:28 Error: [MissingActionException] Action FormatController::q1_answer() could not be found.
+Exception Attributes: array (
+  'controller' => 'FormatController',
+  'action' => 'q1_answer',
+)
+Request URL: /dewtouch-interview/format/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(FormatController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 15:42:53 Error: [MissingActionException] Action RecordController::data.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecordController',
+  'action' => 'data.json',
+)
+Request URL: /dewtouch-interview/record/data.json?_=1619444573388
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 15:43:12 Error: [MissingActionException] Action RecordController::data.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecordController',
+  'action' => 'data.json',
+)
+Request URL: /dewtouch-interview/Record/data.json?_=1619444592925
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 15:43:18 Error: [MissingActionException] Action RecordController::data.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecordController',
+  'action' => 'data.json',
+)
+Request URL: /dewtouch-interview/Record/data.json?_=1619444598245
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 15:43:23 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data?_=1619444603877
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 15:44:16 Error: [MissingActionException] Action RecordController::index.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecordController',
+  'action' => 'index.json',
+)
+Request URL: /dewtouch-interview/Record/index.json?_=1619444656331
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 15:52:01 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data.json?_=1619445121044
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 15:58:10 Error: Fatal Error (1): Call to undefined function dd() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/RecordController.php, line 37]
+2021-04-26 15:58:10 Error: [FatalErrorException] Call to undefined function dd()
+Request URL: /dewtouch-interview/Record/data.json?_=1619445490109
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 15:59:47 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data.json?_=1619445587845
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 17:13:28 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data.json?sEcho=1&iColumns=2&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Record.id&mDataProp_1=Record.name&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&_=1619450008620
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 17:13:29 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data.json?sEcho=1&iColumns=2&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Record.id&mDataProp_1=Record.name&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&_=1619450009463
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 17:13:30 Error: [MissingViewException] View file "Record/data.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Record/data.ctp',
+)
+Request URL: /dewtouch-interview/Record/data.json?sEcho=1&iColumns=2&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Record.id&mDataProp_1=Record.name&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&_=1619450010586
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 17:13:38 Error: [MissingActionException] Action RecordController::data.json() could not be found.
+Exception Attributes: array (
+  'controller' => 'RecordController',
+  'action' => 'data.json',
+)
+Request URL: /dewtouch-interview/Record/data.json?sEcho=1&iColumns=2&sColumns=&iDisplayStart=0&iDisplayLength=10&mDataProp_0=Record.id&mDataProp_1=Record.name&sSearch=&bRegex=false&sSearch_0=&bRegex_0=false&bSearchable_0=true&sSearch_1=&bRegex_1=false&bSearchable_1=true&iSortCol_0=0&sSortDir_0=asc&iSortingCols=1&bSortable_0=true&bSortable_1=true&_=1619450018910
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(RecordController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2021-04-26 17:45:04 Error: [MissingControllerException] Controller class MigrateController could not be found.
+Exception Attributes: array (
+  'class' => 'MigrateController',
+  'plugin' => NULL,
+)
+Request URL: /dewtouch-interview/migrate/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-26 18:02:26 Error: [MissingControllerException] Controller class MigrateController could not be found.
+Exception Attributes: array (
+  'class' => 'MigrateController',
+  'plugin' => NULL,
+)
+Request URL: /dewtouch-interview/migrate/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-26 18:04:32 Error: [MissingControllerException] Controller class MigrateController could not be found.
+Exception Attributes: array (
+  'class' => 'MigrateController',
+  'plugin' => NULL,
+)
+Request URL: /dewtouch-interview/migrate/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-26 18:04:33 Error: [MissingControllerException] Controller class MigrateController could not be found.
+Exception Attributes: array (
+  'class' => 'MigrateController',
+  'plugin' => NULL,
+)
+Request URL: /dewtouch-interview/migrate/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-26 18:05:07 Error: [MissingControllerException] Controller class MigrateController could not be found.
+Exception Attributes: array (
+  'class' => 'MigrateController',
+  'plugin' => NULL,
+)
+Request URL: /dewtouch-interview/migrate/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2021-04-26 18:05:10 Error: Fatal Error (1): Call to a member function read() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 22]
+2021-04-26 18:05:10 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:05:28 Error: Fatal Error (1): Call to a member function set() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 23]
+2021-04-26 18:05:28 Error: [FatalErrorException] Call to a member function set() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 23, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 23, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:05:45 Error: Fatal Error (1): Call to a member function read() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 22]
+2021-04-26 18:05:45 Error: [FatalErrorException] Call to a member function read() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 22, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:06:35 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 36]
+2021-04-26 18:06:35 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:06:38 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 36]
+2021-04-26 18:06:38 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:06:52 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 36]
+2021-04-26 18:06:52 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:07:29 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 36]
+2021-04-26 18:07:29 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:08:03 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 37]
+2021-04-26 18:08:03 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:11:39 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 37]
+2021-04-26 18:11:39 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:12:08 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 38]
+2021-04-26 18:12:08 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:12:29 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:13:00 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 38]
+2021-04-26 18:13:00 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:13:01 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 38]
+2021-04-26 18:13:01 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:13:04 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 38]
+2021-04-26 18:13:04 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 38)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 38, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:13:27 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:13:37 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:14:27 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:14:34 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 41]
+2021-04-26 18:14:34 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:14:38 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 41]
+2021-04-26 18:14:38 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:15:13 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 41]
+2021-04-26 18:15:13 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:15:18 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 41]
+2021-04-26 18:15:18 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:15:20 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 41]
+2021-04-26 18:15:20 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 41)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 41, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:15:40 Error: Fatal Error (1): Call to a member function save() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 42]
+2021-04-26 18:15:40 Error: [FatalErrorException] Call to a member function save() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 42)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 42, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 42, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:17:41 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:23:02 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:23:18 Error: [MissingViewException] View file "Migration/q1_answer.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Migration/q1_answer.ctp',
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(960): View->render(NULL, NULL)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2021-04-26 18:38:17 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 51]
+2021-04-26 18:38:17 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:38:32 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 51]
+2021-04-26 18:38:32 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:38:39 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 51]
+2021-04-26 18:38:39 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 51)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 51, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 18:52:32 Error: Fatal Error (1): Class 'Spreadsheet_Excel_Reader' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 26]
+2021-04-26 18:52:32 Error: [FatalErrorException] Class 'Spreadsheet_Excel_Reader' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spreadsh...', '/Applications/X...', 26)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spreadsh...', '/Applications/X...', 26, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spreadsh...', '/Applications/X...', 26, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:05:43 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:05:43 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:06:39 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:06:39 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:06:41 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:06:41 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:07:58 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:07:58 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:07:59 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:07:59 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:07:59 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:07:59 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:07:59 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:07:59 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:07:59 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:07:59 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:19:42 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:19:42 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:20:13 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:20:13 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:20:14 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:20:14 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:20:26 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:20:26 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:20:27 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:20:27 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:20:27 Error: Fatal Error (1): Call to undefined method Spreadsheet_Excel_Reader::dumptoarray() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 27]
+2021-04-26 19:20:27 Error: [FatalErrorException] Call to undefined method Spreadsheet_Excel_Reader::dumptoarray()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 27)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 27, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:29:08 Error: Fatal Error (1): Class 'Spreadsheet_Excel_Reader' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 31]
+2021-04-26 19:29:08 Error: [FatalErrorException] Class 'Spreadsheet_Excel_Reader' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spreadsh...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spreadsh...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spreadsh...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:29:17 Error: Fatal Error (64): require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel/Autoloader.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel.php, line 6]
+2021-04-26 19:29:17 Error: [FatalErrorException] require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel/Autoloader.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require() [<a h...', '/Applications/X...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [<a h...', '/Applications/X...', 6, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'require() [<a h...', '/Applications/X...', 6, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:30:53 Error: Fatal Error (64): require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel/Autoloader.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib:.:/Applications/XAMPP/xamppfiles/lib/php') in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel.php, line 6]
+2021-04-26 19:30:53 Error: [FatalErrorException] require() [<a href='http://php.net/function.require'>function.require</a>]: Failed opening required '/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Vendor/PHPExcel/PHPExcel/Autoloader.php' (include_path='/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib:.:/Applications/XAMPP/xamppfiles/lib/php')
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(64, 'require() [<a h...', '/Applications/X...', 6)
+#1 [internal function]: ErrorHandler::handleError(64, 'require() [<a h...', '/Applications/X...', 6, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 64, 'require() [<a h...', '/Applications/X...', 6, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:31:23 Error: Fatal Error (1): Class 'Spreadsheet_Excel_Reader' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 31]
+2021-04-26 19:31:23 Error: [FatalErrorException] Class 'Spreadsheet_Excel_Reader' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'Spreadsh...', '/Applications/X...', 31)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Spreadsh...', '/Applications/X...', 31, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'Spreadsh...', '/Applications/X...', 31, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:34:37 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:36:56 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:37:47 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:38:55 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:38:59 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:39:18 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:39:38 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:45:05 Error: Fatal Error (1): Class 'PHPExcel_IOFactory' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 33]
+2021-04-26 19:45:05 Error: [FatalErrorException] Class 'PHPExcel_IOFactory' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', '/Applications/X...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:46:59 Error: Fatal Error (1): Class 'PHPExcel' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 33]
+2021-04-26 19:46:59 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', '/Applications/X...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:47:11 Error: Fatal Error (1): Class 'PHPExcel' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 33]
+2021-04-26 19:47:11 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', '/Applications/X...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:47:12 Error: Fatal Error (1): Class 'PHPExcel' not found in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 33]
+2021-04-26 19:47:12 Error: [FatalErrorException] Class 'PHPExcel' not found
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Class 'PHPExcel...', '/Applications/X...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Class 'PHPExcel...', '/Applications/X...', 33, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:49:00 Error: Fatal Error (1): Call to undefined method PHPExcel::load() in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 37]
+2021-04-26 19:49:00 Error: [FatalErrorException] Call to undefined method PHPExcel::load()
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/Applications/X...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/Applications/X...', 37, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/Applications/X...', 37, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2021-04-26 19:49:18 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-26 19:49:25 Error: [MissingHelperException] Helper class PhpExcelHelper could not be found.
+Exception Attributes: array (
+  'class' => 'PhpExcelHelper',
+  'plugin' => false,
+)
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(897): HelperCollection->load('PhpExcel', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/View/View.php(354): View->loadHelpers()
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(1247): View->__construct(Object(MigrationController))
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Controller/Controller.php(946): Controller->_getViewObject()
+#4 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#5 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(MigrationController), Object(CakeRequest))
+#6 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2021-04-27 16:13:54 Error: Fatal Error (1): Call to a member function create() on null in [/Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/app/Controller/MigrationController.php, line 112]
+2021-04-27 16:13:54 Error: [FatalErrorException] Call to a member function create() on null
+Request URL: /dewtouch-interview/migration/q1_answer
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Error/ErrorHandler.php(213): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Applications/X...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Applications/X...', 112, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(933): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Applications/X...', 112, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/dewtouch-interview/lib/Cake/Core/App.php(906): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}

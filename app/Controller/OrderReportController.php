@@ -15,23 +15,46 @@
 
 
 			// To Do - write your own array in this format
-			$order_reports = array('Order 1' => array(
-										'Ingredient A' => 1,
-										'Ingredient B' => 12,
-										'Ingredient C' => 3,
-										'Ingredient G' => 5,
-										'Ingredient H' => 24,
-										'Ingredient J' => 22,
-										'Ingredient F' => 9,
-									),
-								  'Order 2' => array(
-								  		'Ingredient A' => 13,
-								  		'Ingredient B' => 2,
-								  		'Ingredient G' => 14,
-								  		'Ingredient I' => 2,
-								  		'Ingredient D' => 6,
-								  	),
-								);
+			$order_reports = array();
+			foreach($orders as $key => $order) {
+
+				foreach($order['OrderDetail'] as $orderdetail) {
+					foreach($portions as $portion) {
+						if ($portion["Portion"]["item_id"] == $orderdetail["item_id"]) {
+							foreach($portion["PortionDetail"] as $portiondetail) {
+								$orderName = $order['Order']['name'];
+								$partName = $portiondetail["Part"]["name"];
+								$value = $portiondetail["value"];
+
+								if(isset($order_reports[$orderName][$partName])) {
+									$order_reports[$orderName][$partName] += $portiondetail["value"];
+								} else {
+									$order_reports[$orderName][$partName] = $portiondetail["value"];
+								}
+							}
+						}
+					}
+				}
+
+			}
+
+			// $order_reports = array('Order 1' => array(
+			// 							'Ingredient A' => 1,
+			// 							'Ingredient B' => 12,
+			// 							'Ingredient C' => 3,
+			// 							'Ingredient G' => 5,
+			// 							'Ingredient H' => 24,
+			// 							'Ingredient J' => 22,
+			// 							'Ingredient F' => 9,
+			// 						),
+			// 					  'Order 2' => array(
+			// 					  		'Ingredient A' => 13,
+			// 					  		'Ingredient B' => 2,
+			// 					  		'Ingredient G' => 14,
+			// 					  		'Ingredient I' => 2,
+			// 					  		'Ingredient D' => 6,
+			// 					  	),
+			// 					);
 
 			// ...
 
@@ -60,5 +83,4 @@
 
 			$this->set('title',__('Question - Orders Report'));
 		}
-
 	}

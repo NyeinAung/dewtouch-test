@@ -8,12 +8,6 @@
 			</tr>
 		</thead>
 		<tbody>
-			<?php foreach($records as $record):?>
-			<tr>
-				<td><?php echo $record['Record']['id']?></td>
-				<td><?php echo $record['Record']['name']?></td>
-			</tr>	
-			<?php endforeach;?>
 		</tbody>
 	</table>
 </div>
@@ -21,7 +15,13 @@
 <script>
 $(document).ready(function(){
 	$("#table_records").dataTable({
-
+		"bProcessing": true,
+        "bServerSide": true,
+		"sAjaxSource": window.location.href+"/data.json",
+		"aoColumns": [
+			{mData:"Record.id"},
+			{mData:"Record.name"}
+		],
 	});
 })
 </script>
